@@ -39,7 +39,7 @@ export class MyElement extends LitElement {
 
   override render() {
     return html`
-      <h1>${this.sayHello(this.name)}!</h1>
+      <h1>${this.checkCountEven(this.count)}!</h1>
       <button @click=${this._onClick} part="button">
         Click Count: ${this.count}
       </button>
@@ -52,12 +52,8 @@ export class MyElement extends LitElement {
     this.dispatchEvent(new CustomEvent('count-changed'));
   }
 
-  /**
-   * Formats a greeting
-   * @param name The name to say "Hello" to
-   */
-  sayHello(name: string): string {
-    return `Hello, ${name}`;
+  checkCountEven(count: number) {
+    return count % 2 === 0 ? 'Even' : 'Odd';
   }
 }
 

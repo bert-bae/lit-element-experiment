@@ -1,0 +1,1 @@
+{"version":3,"file":"todo-list.d.ts","sourceRoot":"","sources":["src/todo-list.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,UAAU,EAAY,MAAM,KAAK,CAAC;AAG1C,qBACa,QAAS,SAAQ,UAAU;IACtC,OAAgB,MAAM,0BAkBpB;IAGF,IAAI,EAAE,MAAM,EAAE,CAAsB;IAE3B,MAAM;IAcf,OAAO,CAAC,UAAU;IAKlB,OAAO,CAAC,OAAO;CAGhB"}
